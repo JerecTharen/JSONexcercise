@@ -21,7 +21,7 @@ theImport.then((theResponse) => {
     //     this.html(theData.courses[0])
     // })
 
-    for (let i = 0; i < 2; i++){
+    for (let i = 0; i < titles.length; i++){
         titles[i].innerHTML = theData.courses[i].name;
         descriptors[i].innerHTML = theData.courses[i].desc;
         images[i].setAttribute('src',`${theData.courses[i].img}`);
