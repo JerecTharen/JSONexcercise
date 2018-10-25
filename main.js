@@ -16,6 +16,7 @@ let titles = document.getElementsByClassName('title');
 let descriptors = document.getElementsByClassName('desc');
 let images = document.getElementsByTagName('img');
 let links = document.getElementsByTagName('a');
+let headers = document.getElementsByClassName('header');
 theImport.then((theResponse) => {
     let theData = JSON.parse(theResponse);
     // $.each($('.title'), function () {
@@ -27,6 +28,7 @@ theImport.then((theResponse) => {
         descriptors[i].innerHTML = theData.courses[i].desc;
         images[i].setAttribute('src',`${theData.courses[i].img}`);
         links[i].setAttribute('href',`${theData.courses[i].link}`);
+        headers[i].innerHTML = theData.courses[i].location;
     }
 });
 
