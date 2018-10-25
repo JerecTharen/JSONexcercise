@@ -12,11 +12,19 @@ let theImport = new Promise((resolve,reject)=>{
     });
 });
 
+let titles = document.getElementsByClassName('title');
+let descriptors = document.getElementsByClassName('desc');
+let images = document.getElementsByTagName('img');
 theImport.then((theResponse) => {
     let theData = JSON.parse(theResponse);
-    for (let i = 0; i < $('.card').length; i++) {
-        $('.title'[i]).html(theData.courses[i].name);
-        $('.desc'[i]).html(theData.courses[i].desc);
+    // $.each($('.title'), function () {
+    //     this.html(theData.courses[0])
+    // })
+
+    for (let i = 0; i < 2; i++){
+        titles[i].innerHTML = theData.courses[i].name;
+        descriptors[i].innerHTML = theData.courses[i].desc;
+        images[i].setAttribute('src',`${theData.courses[i].img}`);
     }
 });
 
