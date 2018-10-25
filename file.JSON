@@ -1,7 +1,14 @@
 [
   {
     "name": "Science",
-    "decs": "An introductory course designed to allow students to explore the basic concepts of physical science. Students will be introduced to the history and nature of science. The course includes an introduction to the fundamental concepts of physics, chemistry, astronomy and earth science. Students will be encouraged to explore the relationship between science and everyday life.",
-    "img": "https://mrskuhnskinders.files.wordpress.com/2015/09/science.png"
+    "desc": "An introductory course designed to allow students to explore the basic concepts of physical science. Students will be introduced to the history and nature of science. The course includes an introduction to the fundamental concepts of physics, chemistry, astronomy and earth science. Students will be encouraged to explore the relationship between science and everyday life.",
+    "img": "https://mrskuhnskinders.files.wordpress.com/2015/09/science.png",
+    "link": "https://www.sscc.edu/academics/courses/physical-science.shtml"
+  },
+  {
+    "name": "Math",
+    "desc": "Beginning algebra enhanced with pre-algebra topics such as arithmetic, fractions, and word problems as need indicates. Topics include real numbers, linear equations and inequalities in one variable, polynomials, factoring, algebraic fractions, problem solving, systems of linear equations, rational and irrational numbers, and quadratic equations.This course is only offered online through Continuing and Professional Education.",
+    "img": "https://somersetsentinel.com/wp-content/uploads/2018/08/Math-900x506.png",
+    "link": "https://www.math.umass.edu/course-descriptions"
   }
 ]
