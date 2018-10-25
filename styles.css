@@ -13,6 +13,7 @@ html, body{
 
 .card{
     display:flex;
+    flex-flow
     margin: auto 0;
     background-color:yellow;
     width:300px;
